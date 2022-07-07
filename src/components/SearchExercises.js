@@ -39,7 +39,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   };
 
   return (
-    <Stack alignItems='center' mt='37px' justifyContent='center' p='20px'>
+    <Stack alignItems='center' mt='140px' justifyContent='center' p='20px'>
       <Typography
         fontWeight={700}
         sx={{
@@ -74,8 +74,9 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           sx={{
             bgcolor: "#FF2625",
             color: "#fff",
+
             textTransform: "none",
-            width: { lg: "175px", xs: "80px" },
+            width: { lg: "170px", xs: "80px" },
             fontSize: { lg: "20px", xs: "14px" },
             height: "56px",
             position: "absolute",

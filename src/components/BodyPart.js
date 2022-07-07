@@ -13,19 +13,18 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
           ? {
               borderTop: "4px solid #FF2625",
               background: "#fff",
-              borderBottomLeftRadius: "20px",
-              width: "270px",
-              height: "282px",
+              borderBottomLeftRadius: "50px",
+              width: "250px",
+              height: "250px",
               cursor: "pointer",
-              gap: "47px",
+              gap: "50px",
             }
           : {
-              background: "#fff",
-              borderBottomLeftRadius: "20px",
-              width: "270px",
-              height: "282px",
+              borderBottomLeftRadius: "50px",
+              width: "250px",
+              height: "250px",
               cursor: "pointer",
-              gap: "47px",
+              gap: "50px",
             }
       }
       onClick={() => {

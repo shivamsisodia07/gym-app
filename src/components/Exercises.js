@@ -47,14 +47,15 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
   return (
     <Box id='exercises' sx={{ mt: { lg: "110px" } }} mt='50px' p='20px'>
-      <typography variant='h3' mb='46px'>
-        Showing results:
-      </typography>
+      <typography variant='h3' style={{ fontWeight: "700", fontSize: "25px" }}>
+        Showing Results:
+      </typography>{" "}
       <br />
       <Stack
         direction='row'
         sx={{ gap: { lg: "110px", xs: "50px" } }}
         flexWrap='wrap'
+        mt='10px'
         justifyContent='center'>
         {currentExercises.map((exercise, index) => (
           <ExerciseCard key={index} exercise={exercise} />

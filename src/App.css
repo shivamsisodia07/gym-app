@@ -1,6 +1,6 @@
 body {
   font-family: "Josefin Sans";
-  background-color: #fffafb;
+  background-color: #49434390;
 }
 
 * {
@@ -9,9 +9,9 @@ body {
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 .right-arrow,
 .left-arrow {
@@ -52,20 +52,28 @@ body {
   height: 742px;
 }
 
-.hero-banner-img {
+/* .hero-banner-img {
   position: absolute;
   right: 40px;
   top: 0px;
   width: 700px;
   height: 900px;
   margin-top: -330px;
+} */
+.hero-banner-img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 700px;
+  height: 900px;
+  border-radius: 1%;
+  margin-top: -160px;
 }
-
 .exercise-card {
-  width: 400px;
-  height: 445px;
-  background: #fff;
-  border-top: 4px solid #ff2625;
+  width: 300px;
+  height: 400px;
+  background: #fdf6f6d4;
+  border-top: 4px solid #de3737e8;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -93,6 +101,7 @@ body {
 .search-btn:hover {
   color: #ff2625 !important;
   border: 1px solid #ff2625 !important;
+  border-radius: 5%;
 }
 
 .exercise-video {
