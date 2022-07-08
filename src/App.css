@@ -1,6 +1,6 @@
 body {
   font-family: "Josefin Sans";
-  background-color: #49434390;
+  background-color: #fff;
 }
 
 * {
@@ -48,8 +48,8 @@ body {
 }
 
 .detail-image {
-  width: 729px;
-  height: 742px;
+  width: 500px;
+  height: 500px;
 }
 
 /* .hero-banner-img {
@@ -67,7 +67,7 @@ body {
   width: 700px;
   height: 900px;
   border-radius: 1%;
-  margin-top: -160px;
+  margin-top: -140px;
 }
 .exercise-card {
   width: 300px;
@@ -89,6 +89,7 @@ body {
 }
 
 .bodyPart-card {
+  border: 1px solid black;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
@@ -107,9 +108,9 @@ body {
 .exercise-video {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  width: 387px;
-  height: 381px;
+  gap: 30px;
+  width: 300px;
+  height: 300px;
   text-decoration: none;
 }
 

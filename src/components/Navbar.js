@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 import "./style.css";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/icons/logo3.png";
 
 const Navbar = () => {
   return (
@@ -10,24 +10,22 @@ const Navbar = () => {
       <Stack
         direction='row'
         justifyContent='space-around'
-        background-color='#d7c9b280'
-        // height='11vh'
-        border='1px solid #090909c9'
+        backgroundColor='#f13549'
         sx={{
           gap: { sm: "80px", xs: "40px" },
           pt: { sm: "12px", xs: "12px" },
           height: { sm: "11vh", xs: "8vh" },
           justifyContent: "none",
           px: "10px",
-          borderRadius: "2%",
+          borderRadius: "1%",
         }}>
         <Link to='/'>
           <img
             src={Logo}
             alt='logo'
             style={{
-              width: "48px",
-              height: "48px",
+              width: "40px",
+              height: "40px",
               margin: "0 20px",
             }}
           />

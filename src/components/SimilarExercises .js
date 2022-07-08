@@ -4,21 +4,29 @@ import HorizontalScrollbar from "./HorizontalScrollbar";
 import loader from "./loader";
 const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
   return (
-    <Box sx={{ mt: { lg: "100px", xs: "0" } }}>
-      <Typography variant='h3' mb='5'>
+    <Box sx={{ mt: { lg: "200px", xs: "0" } }}>
+      <Typography
+        sx={{ fontSize: { lg: "44px", xs: "25px" } }}
+        fontWeight={700}
+        color='#000'
+        mb='33px'>
         Exercises that target the same musle group
       </Typography>
-      <Stack direction='row' sx={{ p: "2", position: "relative" }}>
+      <Stack direction='row' sx={{ p: "2px", position: "relative" }} mb='100px'>
         {targetMuscleExercises.length ? (
           <HorizontalScrollbar data={targetMuscleExercises} />
         ) : (
           <loader />
         )}
       </Stack>
-      <Typography variant='h3' mb='5'>
-        Exercises that use the same equipment
+      <Typography
+        sx={{ fontSize: { lg: "44px", xs: "25px" } }}
+        fontWeight={700}
+        color='#000'
+        mb='33px'>
+        Exercises that use the equipment
       </Typography>
-      <Stack direction='row' sx={{ p: "2", position: "relative" }}>
+      <Stack direction='row' sx={{ p: "2px", position: "relative" }} mb='100px'>
         {equipmentExercises.length ? (
           <HorizontalScrollbar data={equipmentExercises} />
         ) : (

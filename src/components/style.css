@@ -1,59 +1,74 @@
-.footer-basic {
-  padding:40px 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+.foot {
+  position: relative;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  min-height: 200px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
+.foot .social_icon,
+.menu {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
 }
 
-.footer-basic li {
-  padding:0 10px;
+.foot .social_icon,
+.menu {
+  list-style-type: none;
 }
 
-.footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+.foot .social_icon a {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.foot .menu a {
+  font-size: 1.1em;
+  font-family: ui "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.2s;
+  text-decoration: none;
 }
 
-.footer-basic ul a:hover {
-  opacity:1;
+.foot .social_icon a:hover {
+  transform: translateY(-10px);
 }
 
-.footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
+.copyright {
+  display: inline;
+  justify-content: center;
+  align-self: center;
+  margin: 20px 0px 0px 0px;
+  font-size: 0.7em;
+  color: #ffffff;
 }
 
-.footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+.developer {
+  display: inline;
+  justify-content: center;
+  align-self: center;
+  /* margin: 20px 0px 0px 0px; */
+  font-size: 0.7em;
+  color: #000000;
 }
-
-.footer-basic .social > a:hover {
-  opacity:0.9;
+.developer:hover {
+  display: inline;
+  justify-content: center;
+  align-self: center;
+  /* margin: 20px 0px 0px 0px; */
+  font-size: 0.7em;
+  color: #fff;
 }
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
-}
+/* footer animations */

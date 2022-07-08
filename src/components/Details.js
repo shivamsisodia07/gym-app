@@ -33,7 +33,7 @@ const Details = ({ exerciseDetail }) => {
       <Stack
         sx={{
           gap: {
-            lg: "35px",
+            lg: "30px",
             xs: "20px",
           },
         }}>
@@ -45,13 +45,13 @@ const Details = ({ exerciseDetail }) => {
           improve your mood and gain energy
         </Typography>
         {extraDetail.map((item) => (
-          <Stack key={item.name} direction='row' gap='24px' alignItems='center'>
+          <Stack key={item.name} direction='row' gap='20px' alignItems='center'>
             <Button
               sx={{
                 background: "#FFF2DB",
                 borderRadius: "50%",
-                width: "100px",
-                height: "100px",
+                width: "80px",
+                height: "80px",
               }}>
               <img
                 src={item.icon}
@@ -61,7 +61,7 @@ const Details = ({ exerciseDetail }) => {
             </Button>
             <Typography
               textTransform='capitalize'
-              sx={{ fontSize: { lg: "30px", xs: "20px" } }}>
+              sx={{ fontSize: { lg: "25px", xs: "20px" } }}>
               {item.name}
             </Typography>
           </Stack>

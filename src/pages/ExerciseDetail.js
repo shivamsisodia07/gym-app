@@ -47,7 +47,7 @@ const ExerciseDetail = () => {
   }, [id]);
 
   return (
-    <Box>
+    <Box gap='60px'>
       <Details exerciseDetail={exerciseDetail} />
       <ExerciseVideos
         exerciseVideos={exerciseVideos}
