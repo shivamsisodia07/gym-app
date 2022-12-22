@@ -1,13 +1,14 @@
 import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material";
 // import Typography from "@mui/material/Typography";
-import HeroBannerImage from "../assets/images/banner.png";
+import HeroBannerImage from "../assets/images/banner-rbg.png";
+import { borderRadius } from "@mui/system";
 const HeroBanner = () => {
   return (
     <Box
       sx={{
         mt: {
-          lg: "160px",
+          lg: "80px",
           xs: "50px",
         },
         ml: {
@@ -16,14 +17,14 @@ const HeroBanner = () => {
       }}
       position='relative'
       p='15px'>
-      <Typography color='#FF2625' fontWeight='600' fontSize='26px'>
+      <Typography color='#fdb634' fontWeight='600' fontSize='30px'>
         Fitness Club
       </Typography>
 
       <Typography
         fontWeight={700}
         sx={{
-          fontSize: { lg: "44px", xs: "40px" },
+          fontSize: { lg: "50px", xs: "40px" }, color: "#271285"
         }}
         mb='23px'
         mt='20px'>
@@ -31,23 +32,24 @@ const HeroBanner = () => {
         <br />
         and repeat
       </Typography>
-      <Typography fontSize='22px' lineHeight='35px' mb={4}>
+      <Typography fontSize='20px' lineHeight='35px' mt={4} mb={1}>
         Check out most effective exercises
       </Typography>
 
       <Button
         variant='contained'
-        color='error'
         href='#exercises'
         sx={{
-          backgroundColor: "#ff2625",
-          padding: "10px",
+          backgroundColor: "#6d50ef",
+          padding: "7px",
+          fontSize: "10px",
+        borderRadius:"16px"  
         }}>
-        Explore Exercises
+        Explore
       </Button>
       <Typography
         fontWeight={600}
-        color='#ff2625'
+        color='#271285'
         sx={{
           opacity: 0.1,
           display: { lg: "block", xs: "none" },

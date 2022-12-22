@@ -51,18 +51,18 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <br /> Should Know
       </Typography>
 
-      <Box position='relative' mb='72px'>
+      <Box position='relative' mb='72px' style={{borderRadius:"30px" }}
+        >
         <TextField
           height='76px'
           sx={{
             input: {
               fontWright: "700",
               border: "none",
-              borderRadius: "4px",
             },
             width: { lg: "800px", xs: "350px" },
             background: "#fff",
-            borderRadius: "40px",
+            borderRadius: "30px",
           }}
           value={search}
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
@@ -74,13 +74,13 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           sx={{
             bgcolor: "#FF2625",
             color: "#fff",
-
             textTransform: "none",
             width: { lg: "170px", xs: "80px" },
             fontSize: { lg: "20px", xs: "14px" },
             height: "56px",
             position: "absolute",
             right: "0px",
+            borderRadius: "30px",
           }}
           onClick={handleSearch}>
           search
