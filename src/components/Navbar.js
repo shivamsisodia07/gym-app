@@ -23,7 +23,8 @@ const Navbar = () => {
         }
 
         style = {
-            { padding: '17px' } } >
+            { padding: '17px' }
+        } >
         <
         Link to = '/' >
         <
@@ -36,8 +37,8 @@ const Navbar = () => {
                 margin: "0 20px",
             }
         }
-        /> <
-        /Link> <
+        /> < /
+        Link > <
         Stack direction = 'row'
         gap = '40px'
         fontSize = '24px'
@@ -57,7 +58,7 @@ const Navbar = () => {
         style = {
             {
                 textDecoration: "none",
-                borderBottom: "3px solid #FF2625",
+                // borderBottom: "3px solid #FF2625",
                 color: "black"
             }
         } > { " " }
@@ -65,12 +66,13 @@ const Navbar = () => {
         /Link> <
         a href = '#exercises'
         style = {
-            { textDecoration: "none", color: "black", transition: "2s" } } >
+            { textDecoration: "none", color: "black", transition: "2s" }
+        } >
         Exercises <
-        /a> <
-        /Stack> <
-        /Stack> <
-        /div>
+        /a> < /
+        Stack > <
+        /Stack> < /
+        div >
     );
 };
 
